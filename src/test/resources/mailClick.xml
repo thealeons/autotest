@@ -1,0 +1,12 @@
+
+<suite name="mailClick">
+    <test  name="mail click" parallel="methods" thread-count="1">
+        <classes>
+            <class name="LeoTest">
+                <methods>
+                    <include name="userCanLoginByUsername"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
